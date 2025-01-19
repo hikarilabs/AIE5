@@ -40,7 +40,7 @@ Please evaluate your system on the following questions:
 2. Read the following paragraph and provide a concise summary of the key points…
     - Aspect Tested: Reading Comprehension / Summarization
 3. Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.
-    - Aspect Tested: Synthetic text generation
+    - Aspect Tested: Synthetic text generation / Creativity
 4. If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?
     - Aspect Tested: Simple Arithmetic 
 5. Rewrite the following paragraph in a professional, formal tone…
@@ -63,3 +63,6 @@ In essence, it's a first look to ensure your system isn't experiencing catastrop
 ##### 🧑‍🤝‍🧑❓ Discussion Question #1:
 
 What are some limitations of vibe checking as an evaluation tool?
+- Costly ? 
+- Is it consistent ? i.e. running the vibe multiple times would produce the same result ?
+- Is it subjective ?
