@@ -1,5 +1,6 @@
 import os
 from typing import List
+import pymupdf
 
 
 class TextFileLoader:
@@ -30,7 +31,15 @@ class TextFileLoader:
                         os.path.join(root, file), "r", encoding=self.encoding
                     ) as f:
                         self.documents.append(f.read())
-
+                if file.endswith(".pdf"):
+                    text = ""
+                    doc = pymupdf.open(os.path.join(root, file))
+                    
+                    for page in doc:
+                        text += page.get_text()
+                    
+                    self.documents.append(text)
+                    
     def load_documents(self):
         self.load()
         return self.documents
