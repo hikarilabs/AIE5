@@ -36,6 +36,7 @@ Each assignment will have a few of the following categories of exercises:
 Please evaluate your system on the following questions:
 
 1. Explain the concept of object-oriented programming in simple terms to a complete beginner. 
+<<<<<<< HEAD
     - Aspect Tested: Corectness / Answer Relevancy
 2. Read the following paragraph and provide a concise summary of the key points…
     - Aspect Tested: Reading Comprehension / Summarization
@@ -45,6 +46,17 @@ Please evaluate your system on the following questions:
     - Aspect Tested: Simple Arithmetic 
 5. Rewrite the following paragraph in a professional, formal tone…
     - Aspect Tested: Text generation with a specific style / tonality 
+=======
+    - Aspect Tested:
+2. Read the following paragraph and provide a concise summary of the key points…
+    - Aspect Tested:
+3. Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.
+    - Aspect Tested:
+4. If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?
+    - Aspect Tested:
+5. Rewrite the following paragraph in a professional, formal tone…
+    - Aspect Tested:
+>>>>>>> 73987b29e9bd3ceddc55e8564a8fc230bd51577a
 
 This "vibe check" now serves as a baseline, of sorts, to help understand what holes your application has.
 
@@ -63,6 +75,9 @@ In essence, it's a first look to ensure your system isn't experiencing catastrop
 ##### 🧑‍🤝‍🧑❓ Discussion Question #1:
 
 What are some limitations of vibe checking as an evaluation tool?
+<<<<<<< HEAD
 - Costly ? 
 - Is it consistent ? i.e. running the vibe multiple times would produce the same result ?
 - Is it subjective ?
+=======
+>>>>>>> 73987b29e9bd3ceddc55e8564a8fc230bd51577a

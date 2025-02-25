@@ -15,10 +15,13 @@ dependencies = [
     "python-dotenv>=1.0.1",
     "scikit-learn>=1.6.1",
     "scipy>=1.15.1",
+<<<<<<< HEAD
     "PyMuPDF>=1.25.2"
 ]
 
 [dependency-groups]
 dev = [
     "ipykernel>=6.29.5",
+=======
+>>>>>>> 73987b29e9bd3ceddc55e8564a8fc230bd51577a
 ]
